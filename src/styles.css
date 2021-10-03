@@ -1,0 +1,33 @@
+.sabun-bg-nav {
+    background-color: #DDDDDD;
+}
+
+.sabun-bg-nav .navbar-brand img {
+    width: 30px;
+}
+
+.sabun-btn-search {
+    background-color: none;
+    color: #ff7400;
+    border: 1px solid #ff7400;
+}
+
+.sabun-btn-search:hover {
+    background-color: #ff7400;
+    color: #f9f9f9;
+}
+
+.bg-sabun-jumbotron {
+    background-color: #ff7400;
+    color: #f9f9f9;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 576px) {
+    .jumbotron-image {
+        width: 100%;
+        margin: 15px 0;
+    }
+}
+
+
