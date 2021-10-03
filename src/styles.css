@@ -1,3 +1,7 @@
+.sabun-mecha {
+    position: relative;
+}
+
 .sabun-bg-nav {
     background-color: #DDDDDD;
 }
@@ -18,12 +22,39 @@
 }
 
 .bg-sabun-jumbotron {
-    background-color: red;
+    background-color: #ff7400;
     color: #f9f9f9;
     overflow: hidden;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+.min-h-150vh {
+    min-height: 150vh !important;
+}
+
+.card-keyboard {
+    box-shadow: 5px 15px 15px rgba(233,233,233, .8);
+    padding: 20px;
+    border-radius: .3rem;
+}
+
+.card-keyboard-thumbnail img {
+    width: 100%;
+}
+
+.sabun-footer {
+    position: absolute;
+    background-color: #303030 !important;
+    color: #f9f9f9;
+    bottom: 0;
 }
 
 @media screen and (max-width: 576px) {
+    .bg-sabun-jumbotron .btn-primary {
+        width: 100%;
+    }
     .jumbotron-image {
         width: 100%;
         margin: 15px 0;
